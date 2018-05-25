@@ -1,0 +1,12 @@
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+.dignity {
+    text-transform: uppercase;
+}
+
+.dignity .title {
+    text-align: center;
+}
