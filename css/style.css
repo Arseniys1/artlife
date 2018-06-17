@@ -94,3 +94,159 @@ body {
 .ekko-lightbox .modal-body {
     padding: 0;
 }
+
+.bg1 {
+    background-image: url(/img/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.header .top a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.header .top a:hover {
+    text-decoration: none;
+}
+
+.header .top .phones, .links {
+    padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .header .top .phones, .links {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .header .top .links a {
+        float: right;
+    }
+}
+
+.before-icon::before {
+    content: '';
+    background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 26px;
+    left: -13px;
+    float: left;
+    margin-right: 5px;
+}
+
+.header .top .phones a::before {
+    background-image: url(/img/phone.png);
+}
+
+.header .top .links a#link-callback::before {
+    background-image: url(/img/callback.png);
+}
+
+.header .top .links a#link-email::before {
+    background-image: url(/img/mail.png);
+    margin-top: 4px;
+    width: 22px;
+    height: 17px;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 68px;
+    border-top: 2px solid #fff;
+    display: none;
+}
+
+.nav-list li {
+    list-style: none;
+    display: table-cell;
+    table-layout: fixed;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-top: 41px;
+}
+
+.nav-list li a::before {
+    content: '';
+    background-image: url(/img/circle_1.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: -19px;
+    left: 40%;
+}
+
+.nav-list::before, .nav-list::after  {
+    content: '';
+    background-image: url(/img/circle_2.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: relative;
+}
+
+.nav-list::before {
+    top: -55px;
+    left: -11px;
+}
+
+.nav-list::after {
+    top: -55px;
+    left: 11px;
+}
+
+.nav-list li a:hover::before {
+    background-image: url(/img/circle_current.png);
+    width: 33px;
+    height: 64px;
+    top: -50px;
+}
+
+.nav-list li a.current::before {
+    background-image: url(/img/circle_current.png);
+    width: 33px;
+    height: 64px;
+    top: -50px;
+}
+
+@media (max-width: 768px) {
+    .header .bottom nav {
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .mobile-nav {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-list {
+        display: table;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+}
