@@ -63,25 +63,74 @@
         </div>
       </div>
 
-      <!-- <div class="dignity">
+      <div class="info-banner">
         <div class="title">
-          <h1>Почему выбирают именно нас:</h1>
+          <h3>Почему выбирают именно нас:</h3>
         </div>
 
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <h1>Собственное производство</h1>
+        <div class="slider">
+            <div class="item">
+              <p>Собственное производство</p>
+            </div>
+            <div class="item">
+              <p>Оперативное качественное выполнение</p>
+            </div>
+            <div class="item">
+              <p>Скидки для постоянных клиентов</p>
+            </div>
+            <div class="item">
+              <p>item4</p>
+            </div>
+            <div class="item">
+              <p>item5</p>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <h1>Оперативное качественное выполнение</h1>
+      </div>
+
+      <div class="services">
+        <div class="title">
+          <h3>Наши услуги</h3>
+        </div>
+
+        <div class="line1"></div>
+
+        <div class="row items">
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/osa-sm.png" class="img-fluid">
+            <p>Наружная реклама</p>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <h1>Скидки для постоянных клиентов</h1>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/polygraphy-sm.png" class="img-fluid">
+            <p>Полиграфия</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/lfp-sm.png" class="img-fluid">
+            <p>Широкоформатная интерьерная печать</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/azs-sm.png" class="img-fluid">
+            <p>Оформление АЗС</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/branding-sm.png" class="img-fluid">
+            <p>Брендирование транспорта</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/painting-sm.png" class="img-fluid">
+            <p>Внутренее и внешнее оформление</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/kart-sm.png" class="img-fluid">
+            <p>Пластиковые карты</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 item">
+            <img src="/img/services/souvenir-sm.png" class="img-fluid">
+            <p>Сувенирная продукция</p>
           </div>
         </div>
       </div>
 
-      <div class="portfolio">
+      <!-- <div class="portfolio">
         <div class="row gallery">
           <a href="http://bipbap.ru/wp-content/uploads/2017/09/Cool-High-Resolution-Wallpaper-1920x1080-640x360.jpg" class="gallery-item col-md-3 col-lg-3"
             data-toggle="lightbox" data-gallery="portfolio">
@@ -146,10 +195,43 @@
 
   <script type="text/javascript">
     $(document).ready(() => {
+      $('.info-banner > .slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+
       $('.trust > .slick-items').slick({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
+        arrows: false,
+        dots: true,
         responsive: [
           {
             breakpoint: 992,
