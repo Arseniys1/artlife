@@ -3,9 +3,25 @@ body {
     background-color: #585858;
 }
 
+@font-face {
+    font-family: Normal;
+    src: url(/fonts/10076.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(/fonts/8141.otf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(/fonts/GOTHICB.TTF);
+}
+
 .info-banner {
     text-transform: uppercase;
     margin-top: 50px;
+    font-family: MyriadPro, Bold;
 }
 
 .info-banner .title {
@@ -102,10 +118,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.slick-prev:before {
-    content: '';
-}
-
 .slick-next {
     font-size: 0;
     line-height: 0;
@@ -128,11 +140,9 @@ body {
     background-repeat: no-repeat;
 }
 
+.slick-prev:before,
 .slick-next:before {
     content: '';
-}
-
-.slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
@@ -142,10 +152,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 768px) {
+    .slick-prev {
+        left: 0px;
+    }
+    .slick-next {
+        right: 0px;
+    }
+}
+
 .portfolio {
     margin-top: -250px;
     position: relative;
     top: 300px;
+    font-family: Century Gothic, Bold;
 }
 
 .portfolio .gallery {
@@ -182,6 +202,10 @@ body {
     width: 100%;
 }
 
+.header {
+    font-family: aMavickFont, Normal;
+}
+
 .header .top a {
     display: inline-block;
     color: #fff;
@@ -192,12 +216,14 @@ body {
     text-decoration: none;
 }
 
-.header .top .phones, .links {
+.header .top .phones,
+.links {
     padding-top: 100px;
 }
 
 @media (max-width: 768px) {
-    .header .top .phones, .links {
+    .header .top .phones,
+    .links {
         text-align: center;
     }
 }
@@ -273,7 +299,8 @@ body {
     left: 40%;
 }
 
-.nav-list::before, .nav-list::after  {
+.nav-list::before,
+.nav-list::after {
     content: '';
     background-image: url(/img/circle_2.png);
     background-repeat: no-repeat;
@@ -312,7 +339,6 @@ body {
         padding: 20px 0;
         text-align: center;
     }
-    
     .mobile-nav {
         display: inline-block;
     }
@@ -322,7 +348,6 @@ body {
     .nav-list {
         display: table;
     }
-
     .mobile-nav {
         display: none;
     }
@@ -330,6 +355,7 @@ body {
 
 .services {
     margin-top: 230px;
+    font-family: Century Gothic, Bold;
 }
 
 .services .title {
@@ -340,6 +366,8 @@ body {
 .services .items .item {
     text-align: center;
     margin-bottom: 40px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .services .items .item p {
@@ -347,6 +375,18 @@ body {
     margin-bottom: 0;
     font-size: 18px;
     font-weight: 700;
+}
+
+.services .items .item:hover img.visible {
+    display: none;
+}
+
+.services .items .item:hover img.hidden {
+    display: inline-block;
+}
+
+.services .items .item img.hidden {
+    display: none;
 }
 
 .line1 {
@@ -375,6 +415,7 @@ body {
     padding-top: 350px;
     padding-bottom: 120px;
     color: #434242;
+    font-family: Century Gothic, Bold;
 }
 
 .about .title {
@@ -394,6 +435,7 @@ body {
 .trust {
     color: #434242;
     padding-top: 50px;
+    font-family: Century Gothic, Bold;
 }
 
 .trust .title {
@@ -401,14 +443,14 @@ body {
     text-align: center;
 }
 
-.trust .slider .row > div {
+.trust .slider .row>div {
     text-align: center;
     height: 140px;
     line-height: 140px;
     vertical-align: middle;
 }
 
-.trust .slider .row > div > img {
+.trust .slider .row>div>img {
     max-width: 150px;
     max-height: 100px;
     display: inline-block;
@@ -417,6 +459,7 @@ body {
 .shop {
     color: #434242;
     padding-top: 50px;
+    font-family: Century Gothic, Bold;
 }
 
 .shop .title {
@@ -437,6 +480,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: 15px;
 }
 
 .shop .item {
@@ -471,7 +515,7 @@ body {
     margin-right: 24px;
 }
 
-.shop .product-info ul.prices li.price-sell > span {
+.shop .product-info ul.prices li.price-sell>span {
     text-decoration: line-through;
 }
 
@@ -491,6 +535,7 @@ body {
 .news {
     color: #434242;
     padding-top: 50px;
+    font-family: Century Gothic, Bold;
 }
 
 .news .title {
@@ -507,7 +552,7 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .news .item span {
@@ -523,6 +568,7 @@ body {
 .reviews {
     color: #434242;
     padding-top: 100px;
+    font-family: Century Gothic, Bold;
 }
 
 .reviews .title {
@@ -548,11 +594,13 @@ body {
     padding: 0;
     text-align: center;
     color: #535252;
+    list-style: none;
 }
 
 .contacts {
     color: #434242;
     padding-top: 50px;
+    font-family: Century Gothic, Bold;
 }
 
 .contacts .title {
@@ -560,7 +608,7 @@ body {
     text-align: center;
 }
 
-.contacts > ul {
+.contacts>ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -569,7 +617,7 @@ body {
     column-count: 2;
 }
 
-.contacts > ul > li {
+.contacts>ul>li {
     margin-bottom: 50px;
 }
 
@@ -635,4 +683,8 @@ body {
 .footer .social-links {
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.slick-slide {
+    outline: none;
 }
