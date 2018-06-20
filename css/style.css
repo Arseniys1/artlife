@@ -683,6 +683,30 @@ body {
 .footer .social-links {
     margin-top: 100px;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer .social-links a {
+    width: 55px;
+    height: 56px;
+    display: inline-block;
+}
+
+.footer .social-links a.vk {
+    background-image: url(/img/vk.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.footer .social-links a.inst {
+    background-image: url(/img/inst.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.footer .social-links a.fb {
+    background-image: url(/img/fb.png);
+    background-repeat: no-repeat;
 }
 
 .slick-slide {

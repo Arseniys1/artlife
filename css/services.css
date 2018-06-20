@@ -1,0 +1,40 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.header {
+    padding-bottom: 100px;
+}
+
+.services {
+    margin-top: 0;
+    padding-top: 100px;
+    color: #434242;
+}
+
+.bg1 {
+    background: url(/img/background2.png) no-repeat;
+    background-size: cover;
+}
+
+.services .items .item {
+    color: #434242;
+}
+
+.services .items .item h4 {
+    font-weight: bold;
+}
+
+.services .items .item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer .social-links {
+    margin-top: 0;
+}
