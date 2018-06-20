@@ -86,8 +86,8 @@ body {
     position: absolute;
     top: 50%;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 51px;
+    height: 51px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -97,11 +97,13 @@ body {
     border: none;
     outline: none;
     background: transparent;
-    left: 0px;
+    left: -68px;
+    background-image: url(/img/arrow_1.png);
+    background-repeat: no-repeat;
 }
 
 .slick-prev:before {
-    content: '←';
+    content: '';
 }
 
 .slick-next {
@@ -110,8 +112,8 @@ body {
     position: absolute;
     top: 50%;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 51px;
+    height: 51px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -121,11 +123,13 @@ body {
     border: none;
     outline: none;
     background: transparent;
-    right: 0px;
+    right: -68px;
+    background-image: url(/img/arrow_2.png);
+    background-repeat: no-repeat;
 }
 
 .slick-next:before {
-    content: '→';
+    content: '';
 }
 
 .slick-prev:before, .slick-next:before {
@@ -138,9 +142,22 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.portfolio {
+    margin-top: -250px;
+    position: relative;
+    top: 300px;
+}
+
 .portfolio .gallery {
     padding: 10px;
     background-color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.portfolio .title {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .gallery-item {
@@ -320,10 +337,6 @@ body {
     text-align: center;
 }
 
-.services .items {
-
-}
-
 .services .items .item {
     text-align: center;
     margin-bottom: 40px;
@@ -333,6 +346,7 @@ body {
     margin-top: 40px;
     margin-bottom: 0;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .line1 {
@@ -342,4 +356,164 @@ body {
     height: 6px;
     margin-top: 35px;
     margin-bottom: 50px;
+}
+
+.line2 {
+    background-image: url(/img/line_2.png);
+    background-repeat: repeat no-repeat;
+    width: 100%;
+    height: 6px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.bg2 {
+    background-color: #ffb312;
+}
+
+.about {
+    padding-top: 350px;
+    padding-bottom: 120px;
+    color: #434242;
+}
+
+.about .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.bg3 {
+    background-color: #f6f6f6;
+}
+
+.trust {
+    color: #434242;
+    padding-top: 50px;
+}
+
+.trust .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.trust .slider .row > div {
+    text-align: center;
+    height: 140px;
+    line-height: 140px;
+    vertical-align: middle;
+}
+
+.trust .slider .row > div > img {
+    max-width: 150px;
+    max-height: 100px;
+    display: inline-block;
+}
+
+.shop {
+    color: #434242;
+    padding-top: 50px;
+}
+
+.shop .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.shop .product-info {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.shop .product-info h6 {
+    text-align: center;
+}
+
+.shop .product-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.shop .item {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.shop .item img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop .product-info ul.services li::before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    background-image: url(/img//circle_1.png);
+    background-repeat: no-repeat;
+    background-size: 19px 19px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin-right: 3px;
+}
+
+.shop .product-info ul.prices li {
+    display: inline-block;
+}
+
+.shop .product-info ul.prices li.price {
+    color: #316eff;
+    margin-right: 24px;
+}
+
+.shop .product-info ul.prices li.price-sell > span {
+    text-decoration: line-through;
+}
+
+.shop .item button {
+    background-color: #5b5b5b;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.news {
+    color: #434242;
+    padding-top: 50px;
+}
+
+.news .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news .item {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.news .item img {
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.news .item span {
+    display: block;
+    text-decoration: underline;
+}
+
+.news .item p {
+    margin-top: 30px;
+    margin-bottom: 0;
 }
