@@ -505,6 +505,8 @@ body {
 
 .news .item img {
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
@@ -516,4 +518,121 @@ body {
 .news .item p {
     margin-top: 30px;
     margin-bottom: 0;
+}
+
+.reviews {
+    color: #434242;
+    padding-top: 100px;
+}
+
+.reviews .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reviews .item img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.reviews .item p {
+    margin-top: 40px;
+    color: #727271;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.reviews .item ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #535252;
+}
+
+.contacts {
+    color: #434242;
+    padding-top: 50px;
+}
+
+.contacts .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacts > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    column-count: 2;
+}
+
+.contacts > ul > li {
+    margin-bottom: 50px;
+}
+
+.contacts ul li .title {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.contacts ul li .value {
+    display: inline-block;
+}
+
+.contacts ul li .value ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.address-icon::before {
+    content: '';
+    background-image: url(/img/contacts/icon_1.png);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 21px;
+    display: inline-block;
+}
+
+.phone-icon::before {
+    content: '';
+    background-image: url(/img/contacts/icon_2.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+    display: inline-block;
+}
+
+.time-icon::before {
+    content: '';
+    background-image: url(/img/contacts/icon_3.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+
+.mail-icon::before {
+    content: '';
+    background-image: url(/img/contacts/icon_4.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 150px;
+    color: #434242;
+}
+
+.footer .social-links {
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
