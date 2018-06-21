@@ -19,77 +19,66 @@ body {
     margin-top: 0;
 }
 
-.branding {
+.i-decor {
     color: #434242;
     font-family: Century Gothic, Bold;
 }
 
-.branding .title {
+.i-decor .title {
     text-align: center;
     padding-top: 60px;
     margin-bottom: 100px;
 }
 
-.branding .title h1 {
+.i-decor .title h1 {
     text-transform: uppercase;
 }
 
-.branding .title h1, h3 {
+.i-decor .title h1, h3 {
     font-weight: bold;
 }
 
-.branding .title .line2 {
+.i-decor .title .line2 {
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
-.branding .title h3 {
+.i-decor .title h3 {
     margin-bottom: 0;
 }
 
-.branding .process {
-    margin-bottom: 50px;
-}
-
-.branding .process .item {
-    text-align: center;
-    font-weight: bold;
-}
-
-.branding .process .item h5 {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.branding .branding-text p {
+.i-decor .decor-text p {
     margin-bottom: 0;
     font-size: 15px;
 }
 
-.branding .branding-text p.text-title {
+.i-decor .decor-text p.text-title {
     font-weight: bold;
 }
 
-.branding .branding-order .title {
+.tdu {
+    text-decoration: underline;
+}
+
+.i-decor .decor-order .title {
     text-align: center;
     color: #434242;
     padding-top: 60px;
     margin-bottom: 30px;
 }
 
-.branding .branding-order .title h5 {
+.i-decor .decor-order .title h5 {
     font-weight: bold;
 }
 
-.branding .branding-order p {
+.i-decor .decor-order p {
     font-size: 15px;
 }
 
-.branding .branding-order .photos {
+.i-decor .decor-order .photos {
     margin-top: 50px;
 }
 
-.branding .branding-order .photos .item {
+.i-decor .decor-order .photos .item {
     text-align: center;
 }
