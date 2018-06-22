@@ -32,6 +32,7 @@ body {
 
 .bshop .title h1 {
     font-weight: bold;
+    font-family: CenturyGothic, Bold;
 }
 
 .bshop .items .item .line2 {
@@ -68,10 +69,11 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 40px;
+    font-family: CenturyGothic, Bold;
 }
 
 .bshop .items .item .info .item p {
-    text-align: left;
+    font-family: Arial, Normal;
 }
 
 .bshop .items .item .info .services {
@@ -81,6 +83,7 @@ body {
     text-align: left;
     box-sizing: border-box;
     column-count: 2;
+    font-family: Century Gothic, Normal;
 }
 
 .bshop .items .item .info .services.cc1 {
@@ -139,6 +142,7 @@ body {
     cursor: pointer;
     margin-top: 30px;
     margin-left: 26px;
+    font-family: CenturyGothic, Bold;
 }
 
 .bshop .items .item .info .services.cc1 .service-item button {
