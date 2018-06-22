@@ -1,0 +1,73 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.header {
+    padding-bottom: 100px;
+}
+
+.bg1 {
+    background: url(/img/background2.png) no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer .social-links {
+    margin-top: 0;
+}
+
+.bshop {
+    color: #434242;
+}
+
+.bshop .title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.bshop .title h1 {
+    font-weight: bold;
+}
+
+.bshop .items .item .line2 {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.bshop .items .item {
+    padding-bottom: 70px;
+}
+
+.bshop .items .item .images .big-image {
+    text-align: center;
+}
+
+.bshop .items .item .images .small-images img {
+    margin-bottom: 15px;
+}
+
+.bshop .items .item .images .small-images img:last-child {
+    margin-bottom: 0;
+}
+
+.bshop .items .item .info {
+    text-align: center;
+}
+
+.bshop .items .item .info .item {
+    padding-bottom: 0;
+}
+
+.bshop .items .item .info .item h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bshop .items .item .info .item p {
+    text-align: left;
+}
