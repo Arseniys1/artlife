@@ -1,0 +1,53 @@
+.about {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.about .title {
+    margin-top: 60px;
+}
+
+.about .title h3 {
+    font-weight: bold;
+}
+
+.about .items .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .items .item h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about .items .item p {
+    font-size: 15px;
+}
+
+.about .items {
+    margin-top: 50px;
+}
+
+.about .items .item:nth-child(2) img {
+    margin-top: 40px;
+}
+
+.about .items .item:nth-child(3) img {
+    margin-top: 18px;
+}
+
+.about .items .item:nth-child(4) img {
+    margin-top: 2px;
+}
+
+.contacts {
+    padding-top: 105px;
+}
