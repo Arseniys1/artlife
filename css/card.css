@@ -1,0 +1,22 @@
+.gas .title h1 {
+    text-transform: uppercase;
+}
+
+.gas .title h2 {
+    text-transform: none;
+}
+
+.gas .items .item h6 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.gas .items .item p {
+    color: #434242;
+    font-weight: bold;
+}
+
+.gas .text h5 {
+    margin-top: 130px;
+    margin-bottom: 25px;
+}
