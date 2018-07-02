@@ -1,0 +1,71 @@
+.header {
+    padding-bottom: 100px;
+}
+
+.gas .title {
+    text-align: center;
+    padding-top: 60px;
+    color: #434242;
+}
+
+.gas .title:nth-child(3) {
+    padding-top: 0;
+}
+
+.gas .title h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gas .title h1 {
+    font-weight: bold; 
+}
+
+.gas .line2 {
+    margin-top: 60px;
+}
+
+.gas .items {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.gas .items .item {
+    text-align: center;
+}
+
+.gas .items .item h6 {
+    color: #434242;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.gas .text {
+    color: #434242;
+}
+
+.gas .text h5 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gas .text p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.gas .photo-items {
+    margin-top: 50px;
+}
+
+.contacts {
+    padding-top: 15px;
+}
+
+.footer .social-links {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
